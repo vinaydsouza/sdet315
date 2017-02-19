@@ -1,0 +1,12 @@
+CREATE TABLE Account
+       (
+       Account_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+       Account_No INT NOT NULL, 
+       Balance FLOAT NOT NULL,
+       Average_Balance FLOAT NOT NULL
+       );
+
+INSERT INTO Account(Account_No , Balance , Average_Balance) 
+        VALUES (111,1500.00,1200.00),(121,1700.00,1300.00),(151,2000.00,1600.00);
+
+
